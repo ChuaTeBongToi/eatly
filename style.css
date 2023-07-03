@@ -194,8 +194,8 @@ input[type=password] {
     border: 1px solid #aaa;
     border-radius: 4px;
     padding: 0.5rem 0;
-  }
-  
+}
+
 input {
     all: unset;
 }
@@ -328,6 +328,10 @@ input[type=password] {
     margin-top: 20%;
     width: 100%;
     height: 100%;
+}
+
+.spotlight-title {
+    margin-bottom: 20px;
 }
 
 .spotlight {
