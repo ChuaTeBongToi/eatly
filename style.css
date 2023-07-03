@@ -18,6 +18,17 @@ body {
     background-color: #FFFFFF;
 }
 
+.logo {
+    all: none;
+    all: unset;
+}
+
+.logo {
+    z-index: 3333;
+    margin-top: 32px;
+    margin-left: 46px;
+}
+
 .log-in-screen {
     position: absolute;
     background-color: #FFFFFF;
@@ -31,11 +42,6 @@ body {
     text-align: center;
     justify-content: center;
     align-items: center;
-}
-
-.logo {
-    width: fit-content;
-    margin: 10px 38px;
 }
 
 .log-in-title {
@@ -182,10 +188,22 @@ input[type=password] {
     flex-shrink: 0;
 }
 
+.input {
+    display: flex;
+    gap: 1rem;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: 0.5rem 0;
+  }
+  
+input {
+    all: unset;
+}
+
 input[type=password] {
     border-radius: 14.275px;
     background: #F5F5F5;
-    background-image: url(Email.png);
+    background-image: url(Lock.png);
     background-repeat: no-repeat;
     background-position: 23.35px 50%;
 }
@@ -205,6 +223,7 @@ input[type=password] {
     margin-top: 12.23px;
 }
 
+
 .btn {
     width: 382.441px;
     height: 74.487px;
@@ -212,6 +231,7 @@ input[type=password] {
 }
 
 .btn {
+    border: #6C5FBC;
     border-radius: 15.564px;
     background: #6C5FBC;
 }
