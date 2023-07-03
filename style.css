@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.log-in-screen {
+    width: 60%;
+    height: 100%;
+    text-align: center;
+}
+
+.logo {
+    margin: 42px 58px;
+}
+
+.log-in-title {
+    margin: auto;
+}
