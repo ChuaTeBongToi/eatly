@@ -24,6 +24,7 @@ body {
 }
 
 .logo {
+    cursor: pointer;
     z-index: 3333;
     margin-top: 32px;
     margin-left: 46px;
@@ -375,6 +376,7 @@ input[type=password] {
 }
 
 .spotlight p {
+    max-width: 500px;
     color: var(--others-white, #FFF);
     text-align: center;
     font-size: 14px;
@@ -383,6 +385,8 @@ input[type=password] {
     font-weight: 500;
     line-height: 150%;
     letter-spacing: 0.2px;
+    opacity: 0.699999988079071;
+    margin-bottom: 20px;
 }
 
 /*Responsive*/
